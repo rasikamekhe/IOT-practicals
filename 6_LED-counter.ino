@@ -32,13 +32,13 @@ void loop() {
     digitalWrite(YELLOW_LED, LOW);
     digitalWrite(GREEN_LED, HIGH);
     digitalWrite(RED_LED, HIGH);
-     delay(20);
+    delay(20);
   } else if (counter > 200)
    {
-        digitalWrite(RED_LED, LOW);
-        digitalWrite(GREEN_LED, HIGH);
-digitalWrite(YELLOW_LED, HIGH);
- delay(20);
+    digitalWrite(RED_LED, LOW);
+    digitalWrite(GREEN_LED, HIGH);
+    digitalWrite(YELLOW_LED, HIGH);
+    delay(20);
   }
 
   // Increment the counter
